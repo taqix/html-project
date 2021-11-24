@@ -1,0 +1,122 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+#nawigacja
+{
+	width:80%;
+	display:inline-flex;
+	justify-content: center;
+  flex-wrap: wrap;
+}
+.gallery-choose
+{
+	width:100%;
+	border:1px solid black;
+  border-radius: 2%;
+	text-align:center;
+	margin-left:3%;
+	padding:0.5%;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease-in;
+}
+.gallery-choose:hover
+{
+	background:black;
+	color:white;
+	border: 1px solid white;
+}
+  
+  .wrapper {
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .polaroid {
+    background: #fff;
+    padding: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+    filter: grayscale(100%);
+  }
+  .polaroid > img{
+    max-width: 100%;
+    height: auto;
+  }
+  .caption {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2em;
+  }
+  .item {
+    width: 20%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+    
+  }
+  .polaroid:hover
+  {
+    filter: none;
+    transform: scale(1.2);
+    box-shadow: 0 0 30px 1px rgb(112, 196, 226);
+
+  }
+  #img_index
+  {
+    margin-top: 10px;
+    
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+  #img_index > img
+  {
+    border: 3px solid black;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    margin:auto;
+    margin-left: 35%;
+    }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-top: 60px;
+    
+  }
+  .button_1
+  {
+    background-color: rgb(71, 82, 87);
+    border: 2px solid;
+    border-radius: 12px;
+    padding: 5px;
+    color:whitesmoke;
+    font-family: 'Poor Story';
+    padding: 20px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+ .dropdown:hover .dropdown-content {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+  footer
+  {
+    width: 100%;
+    background-color: rgb(23, 26, 27);
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+  }
+  
